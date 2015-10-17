@@ -39,7 +39,7 @@ public class Main
         {
             reader.next();
             System.out.println("Enter a number: ");
-        };
+        }
 
         int n = reader.nextInt();
 
