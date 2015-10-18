@@ -23,6 +23,7 @@ public class Main
         }
 
         createpyramid(a-1);
+        //substring is O(n) as of java 7. Used to be O(1).
         result = result.substring(1) + "#";
         System.out.println(result);
 
